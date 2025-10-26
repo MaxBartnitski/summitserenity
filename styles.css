@@ -71,16 +71,16 @@ body {
     padding: 3.5rem 3rem;
     border-radius: 4px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
-    animation: fadeIn 1.8s ease-out 0.6s both;
+    animation: fadeInContent 2s ease-in-out 1s both;
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-@keyframes fadeIn {
-    from {
+@keyframes fadeInContent {
+    0% {
         opacity: 0;
-        transform: translateY(30px);
+        transform: translateY(20px);
     }
-    to {
+    100% {
         opacity: 1;
         transform: translateY(0);
     }
