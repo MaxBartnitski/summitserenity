@@ -237,6 +237,7 @@ body {
         background: rgba(245, 241, 232, 0.85);
         backdrop-filter: blur(8px);
         max-width: 90%;
+        animation: fadeInContent 2s ease-in-out 1s both;
     }
 
     .logo {
@@ -305,6 +306,7 @@ body {
     .content {
         padding: 2.5rem 1.75rem;
         background: rgba(245, 241, 232, 0.83);
+        animation: fadeInContent 2s ease-in-out 1s both;
     }
 
     .logo {
