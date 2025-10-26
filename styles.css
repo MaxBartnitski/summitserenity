@@ -64,15 +64,15 @@ body {
 
 .content {
     text-align: center;
-    max-width: 900px;
+    max-width: 800px;
     width: 100%;
-    background: rgba(245, 241, 232, 0.95);
-    backdrop-filter: blur(15px);
-    padding: 4rem 3.5rem;
+    background: rgba(245, 241, 232, 0.88);
+    backdrop-filter: blur(12px);
+    padding: 3.5rem 3rem;
     border-radius: 4px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
     animation: fadeIn 0.8s ease-out;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 @keyframes fadeIn {
@@ -91,7 +91,7 @@ body {
 }
 
 .logo {
-    font-size: 4.5rem;
+    font-size: 4rem;
     font-weight: 300;
     letter-spacing: 0.15rem;
     color: var(--forest-green);
@@ -108,7 +108,7 @@ body {
 }
 
 .tagline {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .description {
@@ -121,8 +121,8 @@ body {
 .features {
     display: flex;
     justify-content: center;
-    gap: 4rem;
-    margin-bottom: 4rem;
+    gap: 3.5rem;
+    margin-bottom: 3rem;
     flex-wrap: wrap;
 }
 
@@ -134,8 +134,8 @@ body {
 }
 
 .feature-icon {
-    width: 64px;
-    height: 64px;
+    width: 56px;
+    height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -163,7 +163,7 @@ body {
 }
 
 .cta-section {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .status-badge {
@@ -233,8 +233,10 @@ body {
     }
 
     .content {
-        padding: 3rem 2rem;
-        background: rgba(245, 241, 232, 0.96);
+        padding: 2.5rem 2rem;
+        background: rgba(245, 241, 232, 0.90);
+        backdrop-filter: blur(10px);
+        max-width: 95%;
     }
 
     .logo {
@@ -247,44 +249,78 @@ body {
         letter-spacing: 0.5rem;
     }
 
+    .tagline {
+        margin-bottom: 2rem;
+    }
+
     .description {
         font-size: 1rem;
     }
 
     .features {
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.75rem;
         align-items: center;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
     }
 
     .feature-icon {
-        width: 52px;
-        height: 52px;
+        width: 48px;
+        height: 48px;
+    }
+
+    .feature-icon svg {
+        width: 28px;
+        height: 28px;
+    }
+
+    .cta-section {
+        margin-top: 1.5rem;
+    }
+
+    .status-badge {
+        margin-bottom: 1.5rem;
     }
 
     .email-link {
-        font-size: 1rem;
+        font-size: 0.95rem;
         padding: 0.65rem 1.5rem;
     }
 
     .hero-image {
         object-position: center 35%;
-        filter: brightness(0.6);
+        filter: brightness(0.65);
+    }
+    
+    .hero-overlay {
+        background: radial-gradient(
+            ellipse at center,
+            rgba(10, 10, 10, 0.35) 0%,
+            rgba(10, 10, 10, 0.6) 100%
+        );
     }
 }
 
 @media (max-width: 480px) {
     .content {
-        padding: 3rem 2rem;
+        padding: 2.5rem 1.75rem;
+        background: rgba(245, 241, 232, 0.88);
     }
 
     .logo {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
+    }
+
+    .logo-subtitle {
+        font-size: 0.75rem;
     }
 
     .status-badge {
         font-size: 0.9rem;
         padding: 0.65rem 2rem;
+    }
+
+    .email-link {
+        font-size: 0.9rem;
     }
 }
