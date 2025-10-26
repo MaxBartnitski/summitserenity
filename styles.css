@@ -234,9 +234,9 @@ body {
 
     .content {
         padding: 2.5rem 2rem;
-        background: rgba(245, 241, 232, 0.90);
-        backdrop-filter: blur(10px);
-        max-width: 95%;
+        background: rgba(245, 241, 232, 0.85);
+        backdrop-filter: blur(8px);
+        max-width: 90%;
     }
 
     .logo {
@@ -304,7 +304,7 @@ body {
 @media (max-width: 480px) {
     .content {
         padding: 2.5rem 1.75rem;
-        background: rgba(245, 241, 232, 0.88);
+        background: rgba(245, 241, 232, 0.83);
     }
 
     .logo {
