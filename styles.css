@@ -108,7 +108,7 @@ body {
 }
 
 .tagline {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .description {
@@ -163,7 +163,7 @@ body {
 }
 
 .cta-section {
-    margin: 2.5rem 0 3rem;
+    margin: 0 0 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
